@@ -1,7 +1,7 @@
 import logging
 import os
 
-logName = "log.log"
+logName = "log"
 isExist = os.path.exists(logName)
 if isExist:
     os.remove(logName)
@@ -14,4 +14,7 @@ class TheLogger:
         self.fh.setLevel(logging.INFO)
         self.formartter = logging.Formatter('%(asctime)s - ClassName: %(name)s - Operation: %(message)s')
         self.fh.setFormatter(self.formartter)
-        self.logger.addHandler(self.fh)
+
+        # 对handlers进行判断，防止重复添加handler
+        if not self.logger.handlers:
+            self.logger.addHandler(self.fh)
