@@ -1,0 +1,734 @@
+2017-01-13 10:39:38,879 - ClassName: Packet - Operation: new packet generated with id : 1
+2017-01-13 10:39:38,879 - ClassName: Message - Operation: New Message generated, ID : 1
+2017-01-13 10:39:38,879 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:38,879 - ClassName: Packet - Operation: arrive at queue Packet	id=1	 create = 0.000000	 size = 1400	 arrive = 0.000000
+2017-01-13 10:39:38,880 - ClassName: MsgQueue - Operation: generate pdu, except 500 bytes
+2017-01-13 10:39:38,880 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,880 - ClassName: Packet - Operation: start serve Packet	id=1	 create = 0.000000	 size = 900	 arrive = 0.000000	 serve on = 0.000000
+2017-01-13 10:39:38,880 - ClassName: BaseServer - Operation: server start to serve pdu at : 0.000000
+2017-01-13 10:39:38,886 - ClassName: BaseServer - Operation: server finish serving pdu at : 0.480539
+2017-01-13 10:39:38,886 - ClassName: MsgQueue - Operation: generate pdu, except 202 bytes
+2017-01-13 10:39:38,886 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,886 - ClassName: BaseServer - Operation: server start to serve pdu at : 0.480539
+2017-01-13 10:39:38,886 - ClassName: BaseServer - Operation: server finish serving pdu at : 1.426946
+2017-01-13 10:39:38,887 - ClassName: MsgQueue - Operation: generate pdu, except 558 bytes
+2017-01-13 10:39:38,887 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,887 - ClassName: BaseServer - Operation: server start to serve pdu at : 1.426946
+2017-01-13 10:39:38,888 - ClassName: Packet - Operation: new packet generated with id : 2
+2017-01-13 10:39:38,888 - ClassName: Message - Operation: New Message generated, ID : 2
+2017-01-13 10:39:38,888 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:38,888 - ClassName: Packet - Operation: arrive at queue Packet	id=2	 create = 2.171900	 size = 1400	 arrive = 2.171900
+2017-01-13 10:39:38,889 - ClassName: Packet - Operation: new packet generated with id : 3
+2017-01-13 10:39:38,889 - ClassName: Message - Operation: New Message generated, ID : 3
+2017-01-13 10:39:38,894 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:38,894 - ClassName: Packet - Operation: arrive at queue Packet	id=3	 create = 3.272740	 size = 1400	 arrive = 3.272740
+2017-01-13 10:39:38,894 - ClassName: BaseServer - Operation: server finish serving pdu at : 3.320945
+2017-01-13 10:39:38,894 - ClassName: MsgQueue - Operation: generate pdu, except 418 bytes
+2017-01-13 10:39:38,894 - ClassName: MsgQueue - Operation: Buffer size:2
+2017-01-13 10:39:38,894 - ClassName: MsgQueue - Operation: generate pdu, except 278 bytes
+2017-01-13 10:39:38,894 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,895 - ClassName: Packet - Operation: start serve Packet	id=2	 create = 2.171900	 size = 1122	 arrive = 2.171900	 serve on = 3.320945
+2017-01-13 10:39:38,895 - ClassName: BaseServer - Operation: server start to serve pdu at : 3.320945
+2017-01-13 10:39:38,896 - ClassName: Packet - Operation: new packet generated with id : 4
+2017-01-13 10:39:38,896 - ClassName: Message - Operation: New Message generated, ID : 4
+2017-01-13 10:39:38,900 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:38,900 - ClassName: Packet - Operation: arrive at queue Packet	id=4	 create = 3.625460	 size = 1400	 arrive = 3.625460
+2017-01-13 10:39:38,902 - ClassName: Packet - Operation: new packet generated with id : 5
+2017-01-13 10:39:38,902 - ClassName: Message - Operation: New Message generated, ID : 5
+2017-01-13 10:39:38,943 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:38,944 - ClassName: Packet - Operation: arrive at queue Packet	id=5	 create = 4.191203	 size = 1400	 arrive = 4.191203
+2017-01-13 10:39:38,945 - ClassName: Packet - Operation: new packet generated with id : 6
+2017-01-13 10:39:38,946 - ClassName: Message - Operation: New Message generated, ID : 6
+2017-01-13 10:39:38,950 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:38,950 - ClassName: Packet - Operation: arrive at queue Packet	id=6	 create = 9.462242	 size = 1400	 arrive = 9.462242
+2017-01-13 10:39:38,950 - ClassName: BaseServer - Operation: server finish serving pdu at : 10.668358
+2017-01-13 10:39:38,950 - ClassName: MMPPModel - Operation: time out 
+cwnd is 1400, ssth is 2800
+2017-01-13 10:39:38,950 - ClassName: MMPPModel - Operation: time out 
+cwnd is 1400, ssth is 2800
+2017-01-13 10:39:38,951 - ClassName: MsgQueue - Operation: generate pdu, except 1262 bytes
+2017-01-13 10:39:38,951 - ClassName: MsgQueue - Operation: Buffer size:4
+2017-01-13 10:39:38,951 - ClassName: MsgQueue - Operation: generate pdu, except 140 bytes
+2017-01-13 10:39:38,951 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,951 - ClassName: Packet - Operation: start serve Packet	id=3	 create = 3.272740	 size = 1260	 arrive = 3.272740	 serve on = 10.668358
+2017-01-13 10:39:38,951 - ClassName: BaseServer - Operation: server start to serve pdu at : 10.668358
+2017-01-13 10:39:38,952 - ClassName: Packet - Operation: new packet generated with id : 7
+2017-01-13 10:39:38,952 - ClassName: Message - Operation: New Message generated, ID : 7
+2017-01-13 10:39:38,957 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:38,957 - ClassName: Packet - Operation: arrive at queue Packet	id=7	 create = 11.751539	 size = 1400	 arrive = 11.751539
+2017-01-13 10:39:38,957 - ClassName: BaseServer - Operation: server finish serving pdu at : 11.785703
+2017-01-13 10:39:38,957 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:38,957 - ClassName: MMPPModel - Operation: Acked in Slow Start Phase
+2017-01-13 10:39:38,957 - ClassName: MMPPModel - Operation: cwnd is 2800, ssth is 2800
+2017-01-13 10:39:38,958 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:38,958 - ClassName: MsgQueue - Operation: generate pdu, except 613 bytes
+2017-01-13 10:39:38,963 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,963 - ClassName: BaseServer - Operation: server start to serve pdu at : 11.785703
+2017-01-13 10:39:38,963 - ClassName: BaseServer - Operation: server finish serving pdu at : 12.852621
+2017-01-13 10:39:38,963 - ClassName: MsgQueue - Operation: generate pdu, except 451 bytes
+2017-01-13 10:39:38,963 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,963 - ClassName: BaseServer - Operation: server start to serve pdu at : 12.852621
+2017-01-13 10:39:38,964 - ClassName: BaseServer - Operation: server finish serving pdu at : 13.195320
+2017-01-13 10:39:38,964 - ClassName: MsgQueue - Operation: generate pdu, except 1372 bytes
+2017-01-13 10:39:38,964 - ClassName: MsgQueue - Operation: Buffer size:4
+2017-01-13 10:39:38,964 - ClassName: MsgQueue - Operation: generate pdu, except 1176 bytes
+2017-01-13 10:39:38,964 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,964 - ClassName: Packet - Operation: start serve Packet	id=4	 create = 3.625460	 size = 224	 arrive = 3.625460	 serve on = 13.195320
+2017-01-13 10:39:38,965 - ClassName: BaseServer - Operation: server start to serve pdu at : 13.195320
+2017-01-13 10:39:38,966 - ClassName: Packet - Operation: new packet generated with id : 8
+2017-01-13 10:39:38,966 - ClassName: Message - Operation: New Message generated, ID : 8
+2017-01-13 10:39:38,970 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:38,970 - ClassName: Packet - Operation: arrive at queue Packet	id=8	 create = 13.266234	 size = 1400	 arrive = 13.266234
+2017-01-13 10:39:38,971 - ClassName: BaseServer - Operation: server finish serving pdu at : 13.705588
+2017-01-13 10:39:38,971 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:38,971 - ClassName: MMPPModel - Operation: Acked in Slow Start Phase
+2017-01-13 10:39:38,971 - ClassName: MMPPModel - Operation: cwnd is 4200, ssth is 2800
+2017-01-13 10:39:38,971 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:38,971 - ClassName: MsgQueue - Operation: generate pdu, except 1086 bytes
+2017-01-13 10:39:38,972 - ClassName: MsgQueue - Operation: Buffer size:4
+2017-01-13 10:39:38,972 - ClassName: MsgQueue - Operation: generate pdu, except 862 bytes
+2017-01-13 10:39:38,976 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,977 - ClassName: Packet - Operation: start serve Packet	id=5	 create = 4.191203	 size = 538	 arrive = 4.191203	 serve on = 13.705588
+2017-01-13 10:39:38,977 - ClassName: BaseServer - Operation: server start to serve pdu at : 13.705588
+2017-01-13 10:39:38,977 - ClassName: BaseServer - Operation: server finish serving pdu at : 14.258149
+2017-01-13 10:39:38,977 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:38,977 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:38,977 - ClassName: MMPPModel - Operation: cwnd is 4666, ssth is 2800
+2017-01-13 10:39:38,977 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:38,978 - ClassName: MsgQueue - Operation: generate pdu, except 1358 bytes
+2017-01-13 10:39:38,978 - ClassName: MsgQueue - Operation: Buffer size:3
+2017-01-13 10:39:38,978 - ClassName: MsgQueue - Operation: generate pdu, except 820 bytes
+2017-01-13 10:39:38,982 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,983 - ClassName: Packet - Operation: start serve Packet	id=6	 create = 9.462242	 size = 580	 arrive = 9.462242	 serve on = 14.258149
+2017-01-13 10:39:38,983 - ClassName: BaseServer - Operation: server start to serve pdu at : 14.258149
+2017-01-13 10:39:38,983 - ClassName: BaseServer - Operation: server finish serving pdu at : 17.019798
+2017-01-13 10:39:38,983 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:38,983 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:38,983 - ClassName: MMPPModel - Operation: cwnd is 5086, ssth is 2800
+2017-01-13 10:39:38,983 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:38,983 - ClassName: MsgQueue - Operation: generate pdu, except 1378 bytes
+2017-01-13 10:39:38,984 - ClassName: MsgQueue - Operation: Buffer size:2
+2017-01-13 10:39:38,984 - ClassName: MsgQueue - Operation: generate pdu, except 798 bytes
+2017-01-13 10:39:38,989 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,989 - ClassName: Packet - Operation: start serve Packet	id=7	 create = 11.751539	 size = 602	 arrive = 11.751539	 serve on = 17.019798
+2017-01-13 10:39:38,989 - ClassName: BaseServer - Operation: server start to serve pdu at : 17.019798
+2017-01-13 10:39:38,989 - ClassName: BaseServer - Operation: server finish serving pdu at : 17.529594
+2017-01-13 10:39:38,989 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:38,989 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:38,989 - ClassName: MMPPModel - Operation: cwnd is 5471, ssth is 2800
+2017-01-13 10:39:38,990 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:38,990 - ClassName: MsgQueue - Operation: generate pdu, except 578 bytes
+2017-01-13 10:39:38,995 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,995 - ClassName: BaseServer - Operation: server start to serve pdu at : 17.529594
+2017-01-13 10:39:38,995 - ClassName: BaseServer - Operation: server finish serving pdu at : 20.265091
+2017-01-13 10:39:38,995 - ClassName: MsgQueue - Operation: generate pdu, except 1388 bytes
+2017-01-13 10:39:38,995 - ClassName: MsgQueue - Operation: Buffer size:1
+2017-01-13 10:39:38,995 - ClassName: MsgQueue - Operation: generate pdu, except 1364 bytes
+2017-01-13 10:39:38,996 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:38,996 - ClassName: Packet - Operation: start serve Packet	id=8	 create = 13.266234	 size = 36	 arrive = 13.266234	 serve on = 20.265091
+2017-01-13 10:39:38,996 - ClassName: BaseServer - Operation: server start to serve pdu at : 20.265091
+2017-01-13 10:39:38,997 - ClassName: Packet - Operation: new packet generated with id : 9
+2017-01-13 10:39:38,997 - ClassName: Message - Operation: New Message generated, ID : 9
+2017-01-13 10:39:39,002 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,002 - ClassName: Packet - Operation: arrive at queue Packet	id=9	 create = 22.309542	 size = 1400	 arrive = 22.309542
+2017-01-13 10:39:39,003 - ClassName: Packet - Operation: new packet generated with id : 10
+2017-01-13 10:39:39,003 - ClassName: Message - Operation: New Message generated, ID : 10
+2017-01-13 10:39:39,009 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,009 - ClassName: Packet - Operation: arrive at queue Packet	id=10	 create = 22.378162	 size = 1400	 arrive = 22.378162
+2017-01-13 10:39:39,009 - ClassName: BaseServer - Operation: server finish serving pdu at : 23.582106
+2017-01-13 10:39:39,009 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,010 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,010 - ClassName: MMPPModel - Operation: cwnd is 5829, ssth is 2800
+2017-01-13 10:39:39,010 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,010 - ClassName: MsgQueue - Operation: generate pdu, except 1045 bytes
+2017-01-13 10:39:39,010 - ClassName: MsgQueue - Operation: Buffer size:2
+2017-01-13 10:39:39,010 - ClassName: MsgQueue - Operation: generate pdu, except 1009 bytes
+2017-01-13 10:39:39,015 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,015 - ClassName: Packet - Operation: start serve Packet	id=9	 create = 22.309542	 size = 391	 arrive = 22.309542	 serve on = 23.582106
+2017-01-13 10:39:39,016 - ClassName: BaseServer - Operation: server start to serve pdu at : 23.582106
+2017-01-13 10:39:39,016 - ClassName: BaseServer - Operation: server finish serving pdu at : 24.199298
+2017-01-13 10:39:39,016 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,016 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,016 - ClassName: MMPPModel - Operation: cwnd is 6165, ssth is 2800
+2017-01-13 10:39:39,016 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,016 - ClassName: MsgQueue - Operation: generate pdu, except 1069 bytes
+2017-01-13 10:39:39,016 - ClassName: MsgQueue - Operation: Buffer size:1
+2017-01-13 10:39:39,017 - ClassName: MsgQueue - Operation: generate pdu, except 678 bytes
+2017-01-13 10:39:39,022 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,022 - ClassName: Packet - Operation: start serve Packet	id=10	 create = 22.378162	 size = 722	 arrive = 22.378162	 serve on = 24.199298
+2017-01-13 10:39:39,022 - ClassName: BaseServer - Operation: server start to serve pdu at : 24.199298
+2017-01-13 10:39:39,022 - ClassName: BaseServer - Operation: server finish serving pdu at : 24.973414
+2017-01-13 10:39:39,023 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,023 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,023 - ClassName: MMPPModel - Operation: cwnd is 6482, ssth is 2800
+2017-01-13 10:39:39,023 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,023 - ClassName: MsgQueue - Operation: generate pdu, except 106 bytes
+2017-01-13 10:39:39,028 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,028 - ClassName: BaseServer - Operation: server start to serve pdu at : 24.973414
+2017-01-13 10:39:39,029 - ClassName: BaseServer - Operation: server finish serving pdu at : 25.538839
+2017-01-13 10:39:39,029 - ClassName: MsgQueue - Operation: generate pdu, except 826 bytes
+2017-01-13 10:39:39,029 - ClassName: MsgQueue - Operation: Buffer size:0
+2017-01-13 10:39:39,029 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,029 - ClassName: BaseServer - Operation: server start to serve pdu at : 25.538839
+2017-01-13 10:39:39,030 - ClassName: Packet - Operation: new packet generated with id : 11
+2017-01-13 10:39:39,030 - ClassName: Message - Operation: New Message generated, ID : 11
+2017-01-13 10:39:39,035 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,036 - ClassName: Packet - Operation: arrive at queue Packet	id=11	 create = 27.049007	 size = 1400	 arrive = 27.049007
+2017-01-13 10:39:39,037 - ClassName: Packet - Operation: new packet generated with id : 12
+2017-01-13 10:39:39,037 - ClassName: Message - Operation: New Message generated, ID : 12
+2017-01-13 10:39:39,042 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,042 - ClassName: Packet - Operation: arrive at queue Packet	id=12	 create = 27.099365	 size = 1400	 arrive = 27.099365
+2017-01-13 10:39:39,043 - ClassName: Packet - Operation: new packet generated with id : 13
+2017-01-13 10:39:39,043 - ClassName: Message - Operation: New Message generated, ID : 13
+2017-01-13 10:39:39,048 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,049 - ClassName: Packet - Operation: arrive at queue Packet	id=13	 create = 27.835355	 size = 1400	 arrive = 27.835355
+2017-01-13 10:39:39,049 - ClassName: BaseServer - Operation: server finish serving pdu at : 28.115006
+2017-01-13 10:39:39,049 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,049 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,049 - ClassName: MMPPModel - Operation: cwnd is 6784, ssth is 2800
+2017-01-13 10:39:39,049 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,049 - ClassName: MsgQueue - Operation: generate pdu, except 74 bytes
+2017-01-13 10:39:39,054 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,055 - ClassName: Packet - Operation: start serve Packet	id=11	 create = 27.049007	 size = 1326	 arrive = 27.049007	 serve on = 28.115006
+2017-01-13 10:39:39,055 - ClassName: BaseServer - Operation: server start to serve pdu at : 28.115006
+2017-01-13 10:39:39,055 - ClassName: BaseServer - Operation: server finish serving pdu at : 28.483375
+2017-01-13 10:39:39,055 - ClassName: MsgQueue - Operation: generate pdu, except 196 bytes
+2017-01-13 10:39:39,055 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,055 - ClassName: BaseServer - Operation: server start to serve pdu at : 28.483375
+2017-01-13 10:39:39,056 - ClassName: BaseServer - Operation: server finish serving pdu at : 28.692964
+2017-01-13 10:39:39,056 - ClassName: MsgQueue - Operation: generate pdu, except 501 bytes
+2017-01-13 10:39:39,056 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,056 - ClassName: BaseServer - Operation: server start to serve pdu at : 28.692964
+2017-01-13 10:39:39,057 - ClassName: Packet - Operation: new packet generated with id : 14
+2017-01-13 10:39:39,057 - ClassName: Message - Operation: New Message generated, ID : 14
+2017-01-13 10:39:39,062 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,063 - ClassName: Packet - Operation: arrive at queue Packet	id=14	 create = 29.751088	 size = 1400	 arrive = 29.751088
+2017-01-13 10:39:39,063 - ClassName: BaseServer - Operation: server finish serving pdu at : 32.450533
+2017-01-13 10:39:39,063 - ClassName: MsgQueue - Operation: generate pdu, except 264 bytes
+2017-01-13 10:39:39,063 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,063 - ClassName: BaseServer - Operation: server start to serve pdu at : 32.450533
+2017-01-13 10:39:39,064 - ClassName: BaseServer - Operation: server finish serving pdu at : 32.607362
+2017-01-13 10:39:39,064 - ClassName: MsgQueue - Operation: generate pdu, except 764 bytes
+2017-01-13 10:39:39,064 - ClassName: MsgQueue - Operation: Buffer size:3
+2017-01-13 10:39:39,064 - ClassName: MsgQueue - Operation: generate pdu, except 399 bytes
+2017-01-13 10:39:39,064 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,065 - ClassName: Packet - Operation: start serve Packet	id=12	 create = 27.099365	 size = 1001	 arrive = 27.099365	 serve on = 32.607362
+2017-01-13 10:39:39,065 - ClassName: BaseServer - Operation: server start to serve pdu at : 32.607362
+2017-01-13 10:39:39,065 - ClassName: BaseServer - Operation: server finish serving pdu at : 32.830517
+2017-01-13 10:39:39,065 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,065 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,065 - ClassName: MMPPModel - Operation: cwnd is 7072, ssth is 2800
+2017-01-13 10:39:39,065 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,065 - ClassName: MsgQueue - Operation: generate pdu, except 867 bytes
+2017-01-13 10:39:39,071 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,071 - ClassName: BaseServer - Operation: server start to serve pdu at : 32.830517
+2017-01-13 10:39:39,072 - ClassName: Packet - Operation: new packet generated with id : 15
+2017-01-13 10:39:39,072 - ClassName: Message - Operation: New Message generated, ID : 15
+2017-01-13 10:39:39,078 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,078 - ClassName: Packet - Operation: arrive at queue Packet	id=15	 create = 35.127967	 size = 1400	 arrive = 35.127967
+2017-01-13 10:39:39,079 - ClassName: Packet - Operation: new packet generated with id : 16
+2017-01-13 10:39:39,079 - ClassName: Message - Operation: New Message generated, ID : 16
+2017-01-13 10:39:39,099 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,099 - ClassName: Packet - Operation: arrive at queue Packet	id=16	 create = 35.210062	 size = 1400	 arrive = 35.210062
+2017-01-13 10:39:39,099 - ClassName: BaseServer - Operation: server finish serving pdu at : 36.457158
+2017-01-13 10:39:39,099 - ClassName: MsgQueue - Operation: generate pdu, except 137 bytes
+2017-01-13 10:39:39,099 - ClassName: MsgQueue - Operation: Buffer size:4
+2017-01-13 10:39:39,099 - ClassName: MsgQueue - Operation: generate pdu, except 3 bytes
+2017-01-13 10:39:39,100 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,100 - ClassName: Packet - Operation: start serve Packet	id=13	 create = 27.835355	 size = 1397	 arrive = 27.835355	 serve on = 36.457158
+2017-01-13 10:39:39,100 - ClassName: BaseServer - Operation: server start to serve pdu at : 36.457158
+2017-01-13 10:39:39,101 - ClassName: Packet - Operation: new packet generated with id : 17
+2017-01-13 10:39:39,101 - ClassName: Message - Operation: New Message generated, ID : 17
+2017-01-13 10:39:39,113 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,113 - ClassName: Packet - Operation: arrive at queue Packet	id=17	 create = 36.598594	 size = 1400	 arrive = 36.598594
+2017-01-13 10:39:39,115 - ClassName: Packet - Operation: new packet generated with id : 18
+2017-01-13 10:39:39,115 - ClassName: Message - Operation: New Message generated, ID : 18
+2017-01-13 10:39:39,121 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,121 - ClassName: Packet - Operation: arrive at queue Packet	id=18	 create = 38.858505	 size = 1400	 arrive = 38.858505
+2017-01-13 10:39:39,121 - ClassName: BaseServer - Operation: server finish serving pdu at : 41.905054
+2017-01-13 10:39:39,121 - ClassName: MMPPModel - Operation: time out 
+cwnd is 1400, ssth is 3536.0
+2017-01-13 10:39:39,121 - ClassName: MMPPModel - Operation: time out 
+cwnd is 1400, ssth is 2800
+2017-01-13 10:39:39,127 - ClassName: MsgQueue - Operation: generate pdu, except 652 bytes
+2017-01-13 10:39:39,133 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,133 - ClassName: BaseServer - Operation: server start to serve pdu at : 41.905054
+2017-01-13 10:39:39,134 - ClassName: Packet - Operation: new packet generated with id : 19
+2017-01-13 10:39:39,134 - ClassName: Message - Operation: New Message generated, ID : 19
+2017-01-13 10:39:39,146 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,146 - ClassName: Packet - Operation: arrive at queue Packet	id=19	 create = 43.487231	 size = 1400	 arrive = 43.487231
+2017-01-13 10:39:39,146 - ClassName: BaseServer - Operation: server finish serving pdu at : 44.643939
+2017-01-13 10:39:39,147 - ClassName: MsgQueue - Operation: generate pdu, except 374 bytes
+2017-01-13 10:39:39,147 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,147 - ClassName: BaseServer - Operation: server start to serve pdu at : 44.643939
+2017-01-13 10:39:39,148 - ClassName: Packet - Operation: new packet generated with id : 20
+2017-01-13 10:39:39,148 - ClassName: Message - Operation: New Message generated, ID : 20
+2017-01-13 10:39:39,154 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,154 - ClassName: Packet - Operation: arrive at queue Packet	id=20	 create = 46.579417	 size = 1400	 arrive = 46.579417
+2017-01-13 10:39:39,163 - ClassName: Packet - Operation: new packet generated with id : 21
+2017-01-13 10:39:39,163 - ClassName: Message - Operation: New Message generated, ID : 21
+2017-01-13 10:39:39,169 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,169 - ClassName: Packet - Operation: arrive at queue Packet	id=21	 create = 47.206272	 size = 1400	 arrive = 47.206272
+2017-01-13 10:39:39,170 - ClassName: BaseServer - Operation: server finish serving pdu at : 47.218458
+2017-01-13 10:39:39,170 - ClassName: MsgQueue - Operation: generate pdu, except 1104 bytes
+2017-01-13 10:39:39,170 - ClassName: MsgQueue - Operation: Buffer size:8
+2017-01-13 10:39:39,170 - ClassName: MsgQueue - Operation: generate pdu, except 733 bytes
+2017-01-13 10:39:39,170 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,170 - ClassName: Packet - Operation: start serve Packet	id=14	 create = 29.751088	 size = 667	 arrive = 29.751088	 serve on = 47.218458
+2017-01-13 10:39:39,170 - ClassName: BaseServer - Operation: server start to serve pdu at : 47.218458
+2017-01-13 10:39:39,176 - ClassName: BaseServer - Operation: server finish serving pdu at : 47.884809
+2017-01-13 10:39:39,176 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,176 - ClassName: MMPPModel - Operation: Acked in Slow Start Phase
+2017-01-13 10:39:39,176 - ClassName: MMPPModel - Operation: cwnd is 2800, ssth is 2800
+2017-01-13 10:39:39,176 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,176 - ClassName: MsgQueue - Operation: generate pdu, except 120 bytes
+2017-01-13 10:39:39,183 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,183 - ClassName: BaseServer - Operation: server start to serve pdu at : 47.884809
+2017-01-13 10:39:39,183 - ClassName: BaseServer - Operation: server finish serving pdu at : 48.873215
+2017-01-13 10:39:39,183 - ClassName: MsgQueue - Operation: generate pdu, except 71 bytes
+2017-01-13 10:39:39,184 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,184 - ClassName: BaseServer - Operation: server start to serve pdu at : 48.873215
+2017-01-13 10:39:39,185 - ClassName: Packet - Operation: new packet generated with id : 22
+2017-01-13 10:39:39,185 - ClassName: Message - Operation: New Message generated, ID : 22
+2017-01-13 10:39:39,195 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,195 - ClassName: Packet - Operation: arrive at queue Packet	id=22	 create = 49.166963	 size = 1400	 arrive = 49.166963
+2017-01-13 10:39:39,196 - ClassName: Packet - Operation: new packet generated with id : 23
+2017-01-13 10:39:39,196 - ClassName: Message - Operation: New Message generated, ID : 23
+2017-01-13 10:39:39,201 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,202 - ClassName: Packet - Operation: arrive at queue Packet	id=23	 create = 49.666228	 size = 1400	 arrive = 49.666228
+2017-01-13 10:39:39,202 - ClassName: BaseServer - Operation: server finish serving pdu at : 51.231255
+2017-01-13 10:39:39,202 - ClassName: MsgQueue - Operation: generate pdu, except 294 bytes
+2017-01-13 10:39:39,202 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,202 - ClassName: BaseServer - Operation: server start to serve pdu at : 51.231255
+2017-01-13 10:39:39,203 - ClassName: BaseServer - Operation: server finish serving pdu at : 51.487540
+2017-01-13 10:39:39,203 - ClassName: MsgQueue - Operation: generate pdu, except 253 bytes
+2017-01-13 10:39:39,203 - ClassName: MsgQueue - Operation: Buffer size:9
+2017-01-13 10:39:39,203 - ClassName: MsgQueue - Operation: generate pdu, except 71 bytes
+2017-01-13 10:39:39,203 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,203 - ClassName: Packet - Operation: start serve Packet	id=15	 create = 35.127967	 size = 1329	 arrive = 35.127967	 serve on = 51.487540
+2017-01-13 10:39:39,203 - ClassName: BaseServer - Operation: server start to serve pdu at : 51.487540
+2017-01-13 10:39:39,204 - ClassName: BaseServer - Operation: server finish serving pdu at : 51.869090
+2017-01-13 10:39:39,204 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,204 - ClassName: MMPPModel - Operation: Acked in Slow Start Phase
+2017-01-13 10:39:39,204 - ClassName: MMPPModel - Operation: cwnd is 4200, ssth is 2800
+2017-01-13 10:39:39,204 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,204 - ClassName: MsgQueue - Operation: generate pdu, except 442 bytes
+2017-01-13 10:39:39,212 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,212 - ClassName: BaseServer - Operation: server start to serve pdu at : 51.869090
+2017-01-13 10:39:39,212 - ClassName: BaseServer - Operation: server finish serving pdu at : 52.518673
+2017-01-13 10:39:39,212 - ClassName: MsgQueue - Operation: generate pdu, except 442 bytes
+2017-01-13 10:39:39,213 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,213 - ClassName: BaseServer - Operation: server start to serve pdu at : 52.518673
+2017-01-13 10:39:39,215 - ClassName: Packet - Operation: new packet generated with id : 24
+2017-01-13 10:39:39,215 - ClassName: Message - Operation: New Message generated, ID : 24
+2017-01-13 10:39:39,220 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,221 - ClassName: Packet - Operation: arrive at queue Packet	id=24	 create = 52.581982	 size = 1400	 arrive = 52.581982
+2017-01-13 10:39:39,222 - ClassName: Packet - Operation: new packet generated with id : 25
+2017-01-13 10:39:39,222 - ClassName: Message - Operation: New Message generated, ID : 25
+2017-01-13 10:39:39,228 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,228 - ClassName: Packet - Operation: arrive at queue Packet	id=25	 create = 52.793824	 size = 1400	 arrive = 52.793824
+2017-01-13 10:39:39,229 - ClassName: Packet - Operation: new packet generated with id : 26
+2017-01-13 10:39:39,229 - ClassName: Message - Operation: New Message generated, ID : 26
+2017-01-13 10:39:39,235 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,235 - ClassName: Packet - Operation: arrive at queue Packet	id=26	 create = 53.091743	 size = 1400	 arrive = 53.091743
+2017-01-13 10:39:39,236 - ClassName: Packet - Operation: new packet generated with id : 27
+2017-01-13 10:39:39,236 - ClassName: Message - Operation: New Message generated, ID : 27
+2017-01-13 10:39:39,242 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,242 - ClassName: Packet - Operation: arrive at queue Packet	id=27	 create = 53.162814	 size = 1400	 arrive = 53.162814
+2017-01-13 10:39:39,242 - ClassName: BaseServer - Operation: server finish serving pdu at : 53.163656
+2017-01-13 10:39:39,242 - ClassName: MsgQueue - Operation: generate pdu, except 1258 bytes
+2017-01-13 10:39:39,242 - ClassName: MsgQueue - Operation: Buffer size:12
+2017-01-13 10:39:39,242 - ClassName: MsgQueue - Operation: generate pdu, except 813 bytes
+2017-01-13 10:39:39,242 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,243 - ClassName: Packet - Operation: start serve Packet	id=16	 create = 35.210062	 size = 587	 arrive = 35.210062	 serve on = 53.163656
+2017-01-13 10:39:39,243 - ClassName: BaseServer - Operation: server start to serve pdu at : 53.163656
+2017-01-13 10:39:39,243 - ClassName: BaseServer - Operation: server finish serving pdu at : 53.395333
+2017-01-13 10:39:39,243 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,243 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,243 - ClassName: MMPPModel - Operation: cwnd is 4666, ssth is 2800
+2017-01-13 10:39:39,243 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,243 - ClassName: MsgQueue - Operation: generate pdu, except 679 bytes
+2017-01-13 10:39:39,244 - ClassName: MsgQueue - Operation: Buffer size:11
+2017-01-13 10:39:39,244 - ClassName: MsgQueue - Operation: generate pdu, except 92 bytes
+2017-01-13 10:39:39,249 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,249 - ClassName: Packet - Operation: start serve Packet	id=17	 create = 36.598594	 size = 1308	 arrive = 36.598594	 serve on = 53.395333
+2017-01-13 10:39:39,249 - ClassName: BaseServer - Operation: server start to serve pdu at : 53.395333
+2017-01-13 10:39:39,249 - ClassName: BaseServer - Operation: server finish serving pdu at : 54.036201
+2017-01-13 10:39:39,249 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,250 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,250 - ClassName: MMPPModel - Operation: cwnd is 5086, ssth is 2800
+2017-01-13 10:39:39,250 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,250 - ClassName: MsgQueue - Operation: generate pdu, except 478 bytes
+2017-01-13 10:39:39,255 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,255 - ClassName: BaseServer - Operation: server start to serve pdu at : 54.036201
+2017-01-13 10:39:39,256 - ClassName: Packet - Operation: new packet generated with id : 28
+2017-01-13 10:39:39,256 - ClassName: Message - Operation: New Message generated, ID : 28
+2017-01-13 10:39:39,261 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,261 - ClassName: Packet - Operation: arrive at queue Packet	id=28	 create = 54.242667	 size = 1400	 arrive = 54.242667
+2017-01-13 10:39:39,261 - ClassName: BaseServer - Operation: server finish serving pdu at : 54.517086
+2017-01-13 10:39:39,262 - ClassName: MsgQueue - Operation: generate pdu, except 1136 bytes
+2017-01-13 10:39:39,262 - ClassName: MsgQueue - Operation: Buffer size:11
+2017-01-13 10:39:39,262 - ClassName: MsgQueue - Operation: generate pdu, except 306 bytes
+2017-01-13 10:39:39,262 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,262 - ClassName: Packet - Operation: start serve Packet	id=18	 create = 38.858505	 size = 1094	 arrive = 38.858505	 serve on = 54.517086
+2017-01-13 10:39:39,262 - ClassName: BaseServer - Operation: server start to serve pdu at : 54.517086
+2017-01-13 10:39:39,263 - ClassName: Packet - Operation: new packet generated with id : 29
+2017-01-13 10:39:39,264 - ClassName: Message - Operation: New Message generated, ID : 29
+2017-01-13 10:39:39,268 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,268 - ClassName: Packet - Operation: arrive at queue Packet	id=29	 create = 54.929947	 size = 1400	 arrive = 54.929947
+2017-01-13 10:39:39,270 - ClassName: Packet - Operation: new packet generated with id : 30
+2017-01-13 10:39:39,270 - ClassName: Message - Operation: New Message generated, ID : 30
+2017-01-13 10:39:39,275 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,275 - ClassName: Packet - Operation: arrive at queue Packet	id=30	 create = 55.398701	 size = 1400	 arrive = 55.398701
+2017-01-13 10:39:39,276 - ClassName: Packet - Operation: new packet generated with id : 31
+2017-01-13 10:39:39,277 - ClassName: Message - Operation: New Message generated, ID : 31
+2017-01-13 10:39:39,281 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,281 - ClassName: Packet - Operation: arrive at queue Packet	id=31	 create = 55.681161	 size = 1400	 arrive = 55.681161
+2017-01-13 10:39:39,282 - ClassName: Packet - Operation: new packet generated with id : 32
+2017-01-13 10:39:39,282 - ClassName: Message - Operation: New Message generated, ID : 32
+2017-01-13 10:39:39,287 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,287 - ClassName: Packet - Operation: arrive at queue Packet	id=32	 create = 56.290061	 size = 1400	 arrive = 56.290061
+2017-01-13 10:39:39,288 - ClassName: BaseServer - Operation: server finish serving pdu at : 56.709294
+2017-01-13 10:39:39,288 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,288 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,288 - ClassName: MMPPModel - Operation: cwnd is 5471, ssth is 2800
+2017-01-13 10:39:39,288 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,288 - ClassName: MsgQueue - Operation: generate pdu, except 256 bytes
+2017-01-13 10:39:39,293 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,293 - ClassName: BaseServer - Operation: server start to serve pdu at : 56.709294
+2017-01-13 10:39:39,293 - ClassName: BaseServer - Operation: server finish serving pdu at : 56.869886
+2017-01-13 10:39:39,293 - ClassName: MsgQueue - Operation: generate pdu, except 1387 bytes
+2017-01-13 10:39:39,293 - ClassName: MsgQueue - Operation: Buffer size:14
+2017-01-13 10:39:39,293 - ClassName: MsgQueue - Operation: generate pdu, except 549 bytes
+2017-01-13 10:39:39,294 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,294 - ClassName: Packet - Operation: start serve Packet	id=19	 create = 43.487231	 size = 851	 arrive = 43.487231	 serve on = 56.869886
+2017-01-13 10:39:39,294 - ClassName: BaseServer - Operation: server start to serve pdu at : 56.869886
+2017-01-13 10:39:39,295 - ClassName: Packet - Operation: new packet generated with id : 33
+2017-01-13 10:39:39,295 - ClassName: Message - Operation: New Message generated, ID : 33
+2017-01-13 10:39:39,299 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,300 - ClassName: Packet - Operation: arrive at queue Packet	id=33	 create = 57.603667	 size = 1400	 arrive = 57.603667
+2017-01-13 10:39:39,301 - ClassName: Packet - Operation: new packet generated with id : 34
+2017-01-13 10:39:39,301 - ClassName: Message - Operation: New Message generated, ID : 34
+2017-01-13 10:39:39,319 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,319 - ClassName: Packet - Operation: arrive at queue Packet	id=34	 create = 58.013176	 size = 1400	 arrive = 58.013176
+2017-01-13 10:39:39,319 - ClassName: BaseServer - Operation: server finish serving pdu at : 59.386467
+2017-01-13 10:39:39,320 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,320 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,320 - ClassName: MMPPModel - Operation: cwnd is 5829, ssth is 2800
+2017-01-13 10:39:39,320 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,320 - ClassName: MsgQueue - Operation: generate pdu, except 1328 bytes
+2017-01-13 10:39:39,320 - ClassName: MsgQueue - Operation: Buffer size:15
+2017-01-13 10:39:39,320 - ClassName: MsgQueue - Operation: generate pdu, except 477 bytes
+2017-01-13 10:39:39,326 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,326 - ClassName: Packet - Operation: start serve Packet	id=20	 create = 46.579417	 size = 923	 arrive = 46.579417	 serve on = 59.386467
+2017-01-13 10:39:39,326 - ClassName: BaseServer - Operation: server start to serve pdu at : 59.386467
+2017-01-13 10:39:39,328 - ClassName: Packet - Operation: new packet generated with id : 35
+2017-01-13 10:39:39,328 - ClassName: Message - Operation: New Message generated, ID : 35
+2017-01-13 10:39:39,333 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,334 - ClassName: Packet - Operation: arrive at queue Packet	id=35	 create = 61.368335	 size = 1400	 arrive = 61.368335
+2017-01-13 10:39:39,334 - ClassName: BaseServer - Operation: server finish serving pdu at : 62.755621
+2017-01-13 10:39:39,334 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,334 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,334 - ClassName: MMPPModel - Operation: cwnd is 6165, ssth is 2800
+2017-01-13 10:39:39,334 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,334 - ClassName: MsgQueue - Operation: generate pdu, except 233 bytes
+2017-01-13 10:39:39,341 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,341 - ClassName: BaseServer - Operation: server start to serve pdu at : 62.755621
+2017-01-13 10:39:39,341 - ClassName: BaseServer - Operation: server finish serving pdu at : 63.809359
+2017-01-13 10:39:39,341 - ClassName: MsgQueue - Operation: generate pdu, except 1126 bytes
+2017-01-13 10:39:39,341 - ClassName: MsgQueue - Operation: Buffer size:15
+2017-01-13 10:39:39,342 - ClassName: MsgQueue - Operation: generate pdu, except 436 bytes
+2017-01-13 10:39:39,342 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,342 - ClassName: Packet - Operation: start serve Packet	id=21	 create = 47.206272	 size = 964	 arrive = 47.206272	 serve on = 63.809359
+2017-01-13 10:39:39,342 - ClassName: BaseServer - Operation: server start to serve pdu at : 63.809359
+2017-01-13 10:39:39,342 - ClassName: BaseServer - Operation: server finish serving pdu at : 65.650048
+2017-01-13 10:39:39,342 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,342 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,343 - ClassName: MMPPModel - Operation: cwnd is 6482, ssth is 2800
+2017-01-13 10:39:39,343 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,343 - ClassName: MsgQueue - Operation: generate pdu, except 230 bytes
+2017-01-13 10:39:39,348 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,348 - ClassName: BaseServer - Operation: server start to serve pdu at : 65.650048
+2017-01-13 10:39:39,348 - ClassName: BaseServer - Operation: server finish serving pdu at : 66.196538
+2017-01-13 10:39:39,348 - ClassName: MsgQueue - Operation: generate pdu, except 574 bytes
+2017-01-13 10:39:39,348 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,349 - ClassName: BaseServer - Operation: server start to serve pdu at : 66.196538
+2017-01-13 10:39:39,349 - ClassName: BaseServer - Operation: server finish serving pdu at : 66.923103
+2017-01-13 10:39:39,349 - ClassName: MsgQueue - Operation: generate pdu, except 93 bytes
+2017-01-13 10:39:39,349 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,349 - ClassName: BaseServer - Operation: server start to serve pdu at : 66.923103
+2017-01-13 10:39:39,350 - ClassName: Packet - Operation: new packet generated with id : 36
+2017-01-13 10:39:39,350 - ClassName: Message - Operation: New Message generated, ID : 36
+2017-01-13 10:39:39,358 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,359 - ClassName: Packet - Operation: arrive at queue Packet	id=36	 create = 66.955667	 size = 1400	 arrive = 66.955667
+2017-01-13 10:39:39,359 - ClassName: BaseServer - Operation: server finish serving pdu at : 67.412741
+2017-01-13 10:39:39,359 - ClassName: MsgQueue - Operation: generate pdu, except 984 bytes
+2017-01-13 10:39:39,359 - ClassName: MsgQueue - Operation: Buffer size:15
+2017-01-13 10:39:39,359 - ClassName: MsgQueue - Operation: generate pdu, except 917 bytes
+2017-01-13 10:39:39,359 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,360 - ClassName: Packet - Operation: start serve Packet	id=22	 create = 49.166963	 size = 483	 arrive = 49.166963	 serve on = 67.412741
+2017-01-13 10:39:39,360 - ClassName: BaseServer - Operation: server start to serve pdu at : 67.412741
+2017-01-13 10:39:39,360 - ClassName: BaseServer - Operation: server finish serving pdu at : 67.461629
+2017-01-13 10:39:39,360 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,360 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,360 - ClassName: MMPPModel - Operation: cwnd is 6784, ssth is 2800
+2017-01-13 10:39:39,360 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,360 - ClassName: MsgQueue - Operation: generate pdu, except 64 bytes
+2017-01-13 10:39:39,365 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,366 - ClassName: BaseServer - Operation: server start to serve pdu at : 67.461629
+2017-01-13 10:39:39,366 - ClassName: BaseServer - Operation: server finish serving pdu at : 70.227666
+2017-01-13 10:39:39,366 - ClassName: MsgQueue - Operation: generate pdu, except 1281 bytes
+2017-01-13 10:39:39,366 - ClassName: MsgQueue - Operation: Buffer size:14
+2017-01-13 10:39:39,368 - ClassName: MsgQueue - Operation: generate pdu, except 862 bytes
+2017-01-13 10:39:39,368 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,368 - ClassName: Packet - Operation: start serve Packet	id=23	 create = 49.666228	 size = 538	 arrive = 49.666228	 serve on = 70.227666
+2017-01-13 10:39:39,369 - ClassName: BaseServer - Operation: server start to serve pdu at : 70.227666
+2017-01-13 10:39:39,370 - ClassName: Packet - Operation: new packet generated with id : 37
+2017-01-13 10:39:39,370 - ClassName: Message - Operation: New Message generated, ID : 37
+2017-01-13 10:39:39,380 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,380 - ClassName: Packet - Operation: arrive at queue Packet	id=37	 create = 72.128216	 size = 1400	 arrive = 72.128216
+2017-01-13 10:39:39,380 - ClassName: BaseServer - Operation: server finish serving pdu at : 72.300591
+2017-01-13 10:39:39,381 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,381 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,381 - ClassName: MMPPModel - Operation: cwnd is 7072, ssth is 2800
+2017-01-13 10:39:39,381 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,381 - ClassName: MsgQueue - Operation: generate pdu, except 57 bytes
+2017-01-13 10:39:39,386 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,386 - ClassName: BaseServer - Operation: server start to serve pdu at : 72.300591
+2017-01-13 10:39:39,386 - ClassName: BaseServer - Operation: server finish serving pdu at : 72.737346
+2017-01-13 10:39:39,386 - ClassName: MsgQueue - Operation: generate pdu, except 1325 bytes
+2017-01-13 10:39:39,387 - ClassName: MsgQueue - Operation: Buffer size:14
+2017-01-13 10:39:39,387 - ClassName: MsgQueue - Operation: generate pdu, except 844 bytes
+2017-01-13 10:39:39,387 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,387 - ClassName: Packet - Operation: start serve Packet	id=24	 create = 52.581982	 size = 556	 arrive = 52.581982	 serve on = 72.737346
+2017-01-13 10:39:39,387 - ClassName: BaseServer - Operation: server start to serve pdu at : 72.737346
+2017-01-13 10:39:39,387 - ClassName: BaseServer - Operation: server finish serving pdu at : 72.737466
+2017-01-13 10:39:39,387 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,387 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,388 - ClassName: MMPPModel - Operation: cwnd is 7349, ssth is 2800
+2017-01-13 10:39:39,388 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,388 - ClassName: MsgQueue - Operation: generate pdu, except 861 bytes
+2017-01-13 10:39:39,388 - ClassName: MsgQueue - Operation: Buffer size:13
+2017-01-13 10:39:39,388 - ClassName: MsgQueue - Operation: generate pdu, except 305 bytes
+2017-01-13 10:39:39,404 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,405 - ClassName: Packet - Operation: start serve Packet	id=25	 create = 52.793824	 size = 1095	 arrive = 52.793824	 serve on = 72.737466
+2017-01-13 10:39:39,405 - ClassName: BaseServer - Operation: server start to serve pdu at : 72.737466
+2017-01-13 10:39:39,407 - ClassName: Packet - Operation: new packet generated with id : 38
+2017-01-13 10:39:39,408 - ClassName: Message - Operation: New Message generated, ID : 38
+2017-01-13 10:39:39,416 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,416 - ClassName: Packet - Operation: arrive at queue Packet	id=38	 create = 73.191733	 size = 1400	 arrive = 73.191733
+2017-01-13 10:39:39,417 - ClassName: Packet - Operation: new packet generated with id : 39
+2017-01-13 10:39:39,418 - ClassName: Message - Operation: New Message generated, ID : 39
+2017-01-13 10:39:39,425 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,425 - ClassName: Packet - Operation: arrive at queue Packet	id=39	 create = 73.576838	 size = 1400	 arrive = 73.576838
+2017-01-13 10:39:39,426 - ClassName: BaseServer - Operation: server finish serving pdu at : 73.599989
+2017-01-13 10:39:39,426 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,426 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,426 - ClassName: MMPPModel - Operation: cwnd is 7615, ssth is 2800
+2017-01-13 10:39:39,426 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,427 - ClassName: MsgQueue - Operation: generate pdu, except 1391 bytes
+2017-01-13 10:39:39,427 - ClassName: MsgQueue - Operation: Buffer size:14
+2017-01-13 10:39:39,427 - ClassName: MsgQueue - Operation: generate pdu, except 296 bytes
+2017-01-13 10:39:39,432 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,432 - ClassName: Packet - Operation: start serve Packet	id=26	 create = 53.091743	 size = 1104	 arrive = 53.091743	 serve on = 73.599989
+2017-01-13 10:39:39,433 - ClassName: BaseServer - Operation: server start to serve pdu at : 73.599989
+2017-01-13 10:39:39,433 - ClassName: BaseServer - Operation: server finish serving pdu at : 73.633957
+2017-01-13 10:39:39,433 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,433 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,433 - ClassName: MMPPModel - Operation: cwnd is 7872, ssth is 2800
+2017-01-13 10:39:39,433 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,433 - ClassName: MsgQueue - Operation: generate pdu, except 129 bytes
+2017-01-13 10:39:39,438 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,438 - ClassName: BaseServer - Operation: server start to serve pdu at : 73.633957
+2017-01-13 10:39:39,439 - ClassName: BaseServer - Operation: server finish serving pdu at : 74.156267
+2017-01-13 10:39:39,439 - ClassName: MsgQueue - Operation: generate pdu, except 319 bytes
+2017-01-13 10:39:39,439 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,439 - ClassName: BaseServer - Operation: server start to serve pdu at : 74.156267
+2017-01-13 10:39:39,441 - ClassName: Packet - Operation: new packet generated with id : 40
+2017-01-13 10:39:39,441 - ClassName: Message - Operation: New Message generated, ID : 40
+2017-01-13 10:39:39,446 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,446 - ClassName: Packet - Operation: arrive at queue Packet	id=40	 create = 76.304706	 size = 1400	 arrive = 76.304706
+2017-01-13 10:39:39,447 - ClassName: BaseServer - Operation: server finish serving pdu at : 77.978251
+2017-01-13 10:39:39,447 - ClassName: MsgQueue - Operation: generate pdu, except 698 bytes
+2017-01-13 10:39:39,447 - ClassName: MsgQueue - Operation: Buffer size:14
+2017-01-13 10:39:39,447 - ClassName: MsgQueue - Operation: generate pdu, except 42 bytes
+2017-01-13 10:39:39,447 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,447 - ClassName: Packet - Operation: start serve Packet	id=27	 create = 53.162814	 size = 1358	 arrive = 53.162814	 serve on = 77.978251
+2017-01-13 10:39:39,447 - ClassName: BaseServer - Operation: server start to serve pdu at : 77.978251
+2017-01-13 10:39:39,447 - ClassName: BaseServer - Operation: server finish serving pdu at : 79.721617
+2017-01-13 10:39:39,448 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,448 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,448 - ClassName: MMPPModel - Operation: cwnd is 8120, ssth is 2800
+2017-01-13 10:39:39,448 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,448 - ClassName: MsgQueue - Operation: generate pdu, except 568 bytes
+2017-01-13 10:39:39,453 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,453 - ClassName: BaseServer - Operation: server start to serve pdu at : 79.721617
+2017-01-13 10:39:39,455 - ClassName: Packet - Operation: new packet generated with id : 41
+2017-01-13 10:39:39,455 - ClassName: Message - Operation: New Message generated, ID : 41
+2017-01-13 10:39:39,460 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,460 - ClassName: Packet - Operation: arrive at queue Packet	id=41	 create = 81.072160	 size = 1400	 arrive = 81.072160
+2017-01-13 10:39:39,461 - ClassName: Packet - Operation: new packet generated with id : 42
+2017-01-13 10:39:39,462 - ClassName: Message - Operation: New Message generated, ID : 42
+2017-01-13 10:39:39,467 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,467 - ClassName: Packet - Operation: arrive at queue Packet	id=42	 create = 81.511751	 size = 1400	 arrive = 81.511751
+2017-01-13 10:39:39,468 - ClassName: BaseServer - Operation: server finish serving pdu at : 82.240238
+2017-01-13 10:39:39,468 - ClassName: MsgQueue - Operation: generate pdu, except 790 bytes
+2017-01-13 10:39:39,468 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,468 - ClassName: BaseServer - Operation: server start to serve pdu at : 82.240238
+2017-01-13 10:39:39,468 - ClassName: BaseServer - Operation: server finish serving pdu at : 82.484544
+2017-01-13 10:39:39,468 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,468 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,468 - ClassName: MMPPModel - Operation: cwnd is 8361, ssth is 2800
+2017-01-13 10:39:39,469 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,469 - ClassName: MsgQueue - Operation: generate pdu, except 368 bytes
+2017-01-13 10:39:39,475 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,475 - ClassName: Packet - Operation: start serve Packet	id=28	 create = 54.242667	 size = 1032	 arrive = 54.242667	 serve on = 82.484544
+2017-01-13 10:39:39,475 - ClassName: BaseServer - Operation: server start to serve pdu at : 82.484544
+2017-01-13 10:39:39,475 - ClassName: BaseServer - Operation: server finish serving pdu at : 82.919968
+2017-01-13 10:39:39,475 - ClassName: MsgQueue - Operation: generate pdu, except 1287 bytes
+2017-01-13 10:39:39,476 - ClassName: MsgQueue - Operation: Buffer size:14
+2017-01-13 10:39:39,476 - ClassName: MsgQueue - Operation: generate pdu, except 255 bytes
+2017-01-13 10:39:39,476 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,476 - ClassName: Packet - Operation: start serve Packet	id=29	 create = 54.929947	 size = 1145	 arrive = 54.929947	 serve on = 82.919968
+2017-01-13 10:39:39,476 - ClassName: BaseServer - Operation: server start to serve pdu at : 82.919968
+2017-01-13 10:39:39,477 - ClassName: Packet - Operation: new packet generated with id : 43
+2017-01-13 10:39:39,477 - ClassName: Message - Operation: New Message generated, ID : 43
+2017-01-13 10:39:39,483 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,483 - ClassName: Packet - Operation: arrive at queue Packet	id=43	 create = 82.975076	 size = 1400	 arrive = 82.975076
+2017-01-13 10:39:39,484 - ClassName: Packet - Operation: new packet generated with id : 44
+2017-01-13 10:39:39,484 - ClassName: Message - Operation: New Message generated, ID : 44
+2017-01-13 10:39:39,490 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,490 - ClassName: Packet - Operation: arrive at queue Packet	id=44	 create = 83.473174	 size = 1400	 arrive = 83.473174
+2017-01-13 10:39:39,491 - ClassName: Packet - Operation: new packet generated with id : 45
+2017-01-13 10:39:39,491 - ClassName: Message - Operation: New Message generated, ID : 45
+2017-01-13 10:39:39,496 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,496 - ClassName: Packet - Operation: arrive at queue Packet	id=45	 create = 83.608006	 size = 1400	 arrive = 83.608006
+2017-01-13 10:39:39,498 - ClassName: Packet - Operation: new packet generated with id : 46
+2017-01-13 10:39:39,498 - ClassName: Message - Operation: New Message generated, ID : 46
+2017-01-13 10:39:39,503 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,503 - ClassName: Packet - Operation: arrive at queue Packet	id=46	 create = 84.169639	 size = 1400	 arrive = 84.169639
+2017-01-13 10:39:39,503 - ClassName: BaseServer - Operation: server finish serving pdu at : 86.394853
+2017-01-13 10:39:39,503 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,503 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,503 - ClassName: MMPPModel - Operation: cwnd is 8595, ssth is 2800
+2017-01-13 10:39:39,504 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,504 - ClassName: MsgQueue - Operation: generate pdu, except 1215 bytes
+2017-01-13 10:39:39,504 - ClassName: MsgQueue - Operation: Buffer size:17
+2017-01-13 10:39:39,504 - ClassName: MsgQueue - Operation: generate pdu, except 70 bytes
+2017-01-13 10:39:39,509 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,509 - ClassName: Packet - Operation: start serve Packet	id=30	 create = 55.398701	 size = 1330	 arrive = 55.398701	 serve on = 86.394853
+2017-01-13 10:39:39,509 - ClassName: BaseServer - Operation: server start to serve pdu at : 86.394853
+2017-01-13 10:39:39,509 - ClassName: BaseServer - Operation: server finish serving pdu at : 88.144088
+2017-01-13 10:39:39,509 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,509 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,509 - ClassName: MMPPModel - Operation: cwnd is 8823, ssth is 2800
+2017-01-13 10:39:39,509 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,510 - ClassName: MsgQueue - Operation: generate pdu, except 1278 bytes
+2017-01-13 10:39:39,514 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,515 - ClassName: BaseServer - Operation: server start to serve pdu at : 88.144088
+2017-01-13 10:39:39,515 - ClassName: BaseServer - Operation: server finish serving pdu at : 90.262094
+2017-01-13 10:39:39,515 - ClassName: MsgQueue - Operation: generate pdu, except 29 bytes
+2017-01-13 10:39:39,515 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,515 - ClassName: BaseServer - Operation: server start to serve pdu at : 90.262094
+2017-01-13 10:39:39,515 - ClassName: BaseServer - Operation: server finish serving pdu at : 90.396247
+2017-01-13 10:39:39,515 - ClassName: MsgQueue - Operation: generate pdu, except 634 bytes
+2017-01-13 10:39:39,516 - ClassName: MsgQueue - Operation: Buffer size:16
+2017-01-13 10:39:39,516 - ClassName: MsgQueue - Operation: generate pdu, except 611 bytes
+2017-01-13 10:39:39,516 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,516 - ClassName: Packet - Operation: start serve Packet	id=31	 create = 55.681161	 size = 789	 arrive = 55.681161	 serve on = 90.396247
+2017-01-13 10:39:39,516 - ClassName: BaseServer - Operation: server start to serve pdu at : 90.396247
+2017-01-13 10:39:39,516 - ClassName: BaseServer - Operation: server finish serving pdu at : 90.650216
+2017-01-13 10:39:39,516 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,516 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,516 - ClassName: MMPPModel - Operation: cwnd is 9045, ssth is 2800
+2017-01-13 10:39:39,517 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,517 - ClassName: MsgQueue - Operation: generate pdu, except 1222 bytes
+2017-01-13 10:39:39,517 - ClassName: MsgQueue - Operation: Buffer size:15
+2017-01-13 10:39:39,517 - ClassName: MsgQueue - Operation: generate pdu, except 433 bytes
+2017-01-13 10:39:39,522 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,522 - ClassName: Packet - Operation: start serve Packet	id=32	 create = 56.290061	 size = 967	 arrive = 56.290061	 serve on = 90.650216
+2017-01-13 10:39:39,522 - ClassName: BaseServer - Operation: server start to serve pdu at : 90.650216
+2017-01-13 10:39:39,535 - ClassName: BaseServer - Operation: server finish serving pdu at : 90.840424
+2017-01-13 10:39:39,535 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,535 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,535 - ClassName: MMPPModel - Operation: cwnd is 9261, ssth is 2800
+2017-01-13 10:39:39,535 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,536 - ClassName: MsgQueue - Operation: generate pdu, except 1359 bytes
+2017-01-13 10:39:39,536 - ClassName: MsgQueue - Operation: Buffer size:14
+2017-01-13 10:39:39,536 - ClassName: MsgQueue - Operation: generate pdu, except 392 bytes
+2017-01-13 10:39:39,546 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,546 - ClassName: Packet - Operation: start serve Packet	id=33	 create = 57.603667	 size = 1008	 arrive = 57.603667	 serve on = 90.840424
+2017-01-13 10:39:39,546 - ClassName: BaseServer - Operation: server start to serve pdu at : 90.840424
+2017-01-13 10:39:39,547 - ClassName: BaseServer - Operation: server finish serving pdu at : 91.255595
+2017-01-13 10:39:39,547 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,547 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,547 - ClassName: MMPPModel - Operation: cwnd is 9472, ssth is 2800
+2017-01-13 10:39:39,547 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,547 - ClassName: MsgQueue - Operation: generate pdu, except 210 bytes
+2017-01-13 10:39:39,553 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,553 - ClassName: BaseServer - Operation: server start to serve pdu at : 91.255595
+2017-01-13 10:39:39,553 - ClassName: BaseServer - Operation: server finish serving pdu at : 92.006481
+2017-01-13 10:39:39,553 - ClassName: MsgQueue - Operation: generate pdu, except 829 bytes
+2017-01-13 10:39:39,554 - ClassName: MsgQueue - Operation: Buffer size:13
+2017-01-13 10:39:39,554 - ClassName: MsgQueue - Operation: generate pdu, except 31 bytes
+2017-01-13 10:39:39,554 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,554 - ClassName: Packet - Operation: start serve Packet	id=34	 create = 58.013176	 size = 1369	 arrive = 58.013176	 serve on = 92.006481
+2017-01-13 10:39:39,554 - ClassName: BaseServer - Operation: server start to serve pdu at : 92.006481
+2017-01-13 10:39:39,554 - ClassName: BaseServer - Operation: server finish serving pdu at : 92.658363
+2017-01-13 10:39:39,555 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,555 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,555 - ClassName: MMPPModel - Operation: cwnd is 9678, ssth is 2800
+2017-01-13 10:39:39,555 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,555 - ClassName: MsgQueue - Operation: generate pdu, except 11 bytes
+2017-01-13 10:39:39,562 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,562 - ClassName: BaseServer - Operation: server start to serve pdu at : 92.658363
+2017-01-13 10:39:39,563 - ClassName: Packet - Operation: new packet generated with id : 47
+2017-01-13 10:39:39,564 - ClassName: Message - Operation: New Message generated, ID : 47
+2017-01-13 10:39:39,569 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,569 - ClassName: Packet - Operation: arrive at queue Packet	id=47	 create = 92.818763	 size = 1400	 arrive = 92.818763
+2017-01-13 10:39:39,570 - ClassName: BaseServer - Operation: server finish serving pdu at : 93.381680
+2017-01-13 10:39:39,570 - ClassName: MsgQueue - Operation: generate pdu, except 1362 bytes
+2017-01-13 10:39:39,570 - ClassName: MsgQueue - Operation: Buffer size:13
+2017-01-13 10:39:39,570 - ClassName: MsgQueue - Operation: generate pdu, except 4 bytes
+2017-01-13 10:39:39,571 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,571 - ClassName: Packet - Operation: start serve Packet	id=35	 create = 61.368335	 size = 1396	 arrive = 61.368335	 serve on = 93.381680
+2017-01-13 10:39:39,571 - ClassName: BaseServer - Operation: server start to serve pdu at : 93.381680
+2017-01-13 10:39:39,572 - ClassName: Packet - Operation: new packet generated with id : 48
+2017-01-13 10:39:39,572 - ClassName: Message - Operation: New Message generated, ID : 48
+2017-01-13 10:39:39,578 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,578 - ClassName: Packet - Operation: arrive at queue Packet	id=48	 create = 94.772448	 size = 1400	 arrive = 94.772448
+2017-01-13 10:39:39,581 - ClassName: Packet - Operation: new packet generated with id : 49
+2017-01-13 10:39:39,581 - ClassName: Message - Operation: New Message generated, ID : 49
+2017-01-13 10:39:39,587 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,587 - ClassName: Packet - Operation: arrive at queue Packet	id=49	 create = 95.037845	 size = 1400	 arrive = 95.037845
+2017-01-13 10:39:39,587 - ClassName: BaseServer - Operation: server finish serving pdu at : 95.540977
+2017-01-13 10:39:39,587 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,587 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,587 - ClassName: MMPPModel - Operation: cwnd is 9880, ssth is 2800
+2017-01-13 10:39:39,588 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,588 - ClassName: MsgQueue - Operation: generate pdu, except 817 bytes
+2017-01-13 10:39:39,594 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,594 - ClassName: BaseServer - Operation: server start to serve pdu at : 95.540977
+2017-01-13 10:39:39,595 - ClassName: BaseServer - Operation: server finish serving pdu at : 97.208766
+2017-01-13 10:39:39,595 - ClassName: MsgQueue - Operation: generate pdu, except 110 bytes
+2017-01-13 10:39:39,595 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,595 - ClassName: BaseServer - Operation: server start to serve pdu at : 97.208766
+2017-01-13 10:39:39,595 - ClassName: BaseServer - Operation: server finish serving pdu at : 97.659379
+2017-01-13 10:39:39,595 - ClassName: MsgQueue - Operation: generate pdu, except 928 bytes
+2017-01-13 10:39:39,595 - ClassName: MsgQueue - Operation: Buffer size:14
+2017-01-13 10:39:39,596 - ClassName: MsgQueue - Operation: generate pdu, except 459 bytes
+2017-01-13 10:39:39,596 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,596 - ClassName: Packet - Operation: start serve Packet	id=36	 create = 66.955667	 size = 941	 arrive = 66.955667	 serve on = 97.659379
+2017-01-13 10:39:39,596 - ClassName: BaseServer - Operation: server start to serve pdu at : 97.659379
+2017-01-13 10:39:39,596 - ClassName: BaseServer - Operation: server finish serving pdu at : 98.942480
+2017-01-13 10:39:39,596 - ClassName: MMPPModel - Operation: The source received feedback for successful delivering
+2017-01-13 10:39:39,596 - ClassName: MMPPModel - Operation: Acked in Congestion avoidance
+2017-01-13 10:39:39,596 - ClassName: MMPPModel - Operation: cwnd is 10078, ssth is 2800
+2017-01-13 10:39:39,597 - ClassName: Packet - Operation: finish serve %s % self
+2017-01-13 10:39:39,597 - ClassName: MsgQueue - Operation: generate pdu, except 734 bytes
+2017-01-13 10:39:39,602 - ClassName: BaseServer - Operation: serve pdu
+2017-01-13 10:39:39,602 - ClassName: BaseServer - Operation: server start to serve pdu at : 98.942480
+2017-01-13 10:39:39,603 - ClassName: Packet - Operation: new packet generated with id : 50
+2017-01-13 10:39:39,603 - ClassName: Message - Operation: New Message generated, ID : 50
+2017-01-13 10:39:39,611 - ClassName: MsgQueue - Operation: new message with 1 packets arrive at MsgQueue
+2017-01-13 10:39:39,611 - ClassName: Packet - Operation: arrive at queue Packet	id=50	 create = 99.931329	 size = 1400	 arrive = 99.931329
